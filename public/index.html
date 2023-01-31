@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Formulario de mascotas</title>
+    </head>
+    <body>
+        <h2>Ingresar mascota</h2>
+        <form action="/api/pet/agregar" enctype="multipart/form-data" method="POST">
+            Nombre: <input type="text" name="nombre">
+            Raza: <input type="text" name="raza">
+            Edad: <input type="text" name="edad">
+            Imagen: <input type="file" name="archivo">
+            <button>Enviar</button>
+        </form>
+
+
+    </body>
+</html>
